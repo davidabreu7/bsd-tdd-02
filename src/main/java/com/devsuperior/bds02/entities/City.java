@@ -1,5 +1,7 @@
 package com.devsuperior.bds02.entities;
 
+import com.devsuperior.bds02.dto.CityDTO;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,6 +32,9 @@ public class City {
 		this.name = name;
 	}
 
+	public City(CityDTO dto){
+		name = dto.getName();
+	}
 	public Long getId() {
 		return id;
 	}
