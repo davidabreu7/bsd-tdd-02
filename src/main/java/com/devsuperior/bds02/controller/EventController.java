@@ -2,7 +2,6 @@ package com.devsuperior.bds02.controller;
 
 import com.devsuperior.bds02.dto.EventDTO;
 import com.devsuperior.bds02.service.EventService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
